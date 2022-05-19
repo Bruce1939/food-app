@@ -102,11 +102,6 @@ const DishesPage = () => {
             <Dish key={dish.id} dish={dish} />
         )))}
 
-        {dishes && (
-          dishes.map((dish) => (
-            <Dish key={dish.id} dish={dish} />
-        )))}
-
         <div className="div"></div>
       
       </div>

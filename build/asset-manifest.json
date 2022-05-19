@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1fa86b52.css",
-    "main.js": "/static/js/main.8aa21b4f.js",
+    "main.js": "/static/js/main.14101328.js",
     "static/media/herbs.png": "/static/media/herbs.a6c2f884dae7dbb21ea7.png",
     "static/media/spices.png": "/static/media/spices.e8e3d56399db53e412f7.png",
     "static/media/foodLogo.svg": "/static/media/foodLogo.6a8b7640dbab75c1107223ccf545bbce.svg",
@@ -14,10 +14,10 @@
     "static/media/navArrow.svg": "/static/media/navArrow.860a0a2a09c54812ca54d639792815e6.svg",
     "static/media/downArrow.svg": "/static/media/downArrow.edb89b5e60ff7ebc3f1deb03a7a81826.svg",
     "main.1fa86b52.css.map": "/static/css/main.1fa86b52.css.map",
-    "main.8aa21b4f.js.map": "/static/js/main.8aa21b4f.js.map"
+    "main.14101328.js.map": "/static/js/main.14101328.js.map"
   },
   "entrypoints": [
     "static/css/main.1fa86b52.css",
-    "static/js/main.8aa21b4f.js"
+    "static/js/main.14101328.js"
   ]
 }
