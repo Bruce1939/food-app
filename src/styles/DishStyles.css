@@ -1,0 +1,137 @@
+/* Recipe Styles */
+.recipe__container {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.herbs-and-spices {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF9F2;
+}
+
+.herbs {
+    position: absolute;
+    top: 0;
+    right: -380px;
+    z-index: 1000;
+}
+
+.spices__1 {
+    position: absolute;
+    top: 40px;
+    right: -430px;
+}
+
+.recipe {
+    width: 60%;
+    margin-left: 25px;
+}
+
+.recipe__header {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.recipe__header h1{
+    font: normal normal 800 23px/32px Open Sans;
+    letter-spacing: 0px;
+    color: #242424;
+}
+
+.recipe__description p{
+    width: 60%;
+    font: normal normal normal 8px/14px Open Sans;
+    letter-spacing: 0.16px;
+    color: #A3A3A3;
+    margin-top: 7px;
+}
+
+.recipe__time__required {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.recipe__time__required p {
+    font: normal normal 600 10px/14px Open Sans;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    margin-left: 10px;
+}
+
+.hr {
+    width: 80%;
+    margin-top: 40px;
+}
+
+/* Ingredients Styles */
+.ingredients {
+    margin: 30px 20px 30px 10px;
+}
+
+.ingredients h1{
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0.16px;
+    color: #1C1C1C;
+}
+
+.ingredients p {
+    font: normal normal normal 8px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #8A8A8A;
+}
+
+/* Vegetables and Spices Styles */
+.vegetables {
+    margin-top: 35px;
+}
+
+.vegetables__header, .spices__header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.vegetables__header img, .spices__header img {
+    margin-left: 10px;
+}
+
+.vegetables__header h1, .spices__header h1, .appliances h1 {
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #242424;
+    margin-left: 10px; 
+}
+
+.vegetable-and-spices {
+    font: normal normal normal 8px/11px Open Sans;
+    letter-spacing: 0px;
+    color: #242424;
+    margin: 15px 10px;
+}
+
+/* Appliances Styles */
+.appliances {
+    margin-top: 30px;
+}
+
+.appliance {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    width: 72px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.appliance p {
+    font: normal normal normal 8px/11px Open Sans;
+    letter-spacing: 0px;
+    color: #242424;
+}
